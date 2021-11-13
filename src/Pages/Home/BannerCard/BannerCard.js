@@ -5,6 +5,7 @@ import { Box } from '@mui/system';
 const style = {
 
     box2: {
+        marginLeft:"40px",
         marginTop: "-30px"
     },
     box2Paper1: {

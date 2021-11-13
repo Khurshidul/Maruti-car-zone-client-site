@@ -16,6 +16,7 @@ import PlaceOrder2 from './Pages/PlaceOrder2/PlaceOrder2';
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 import Reviews from './Pages/Dashboard/Reviews/Reviews';
 import OrderConfirm from './Pages/OrderConfirm/OrderConfirm';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 function App() {
@@ -55,6 +56,9 @@ function App() {
             </Route>
             <Route path="/reviews">
             <Reviews/>
+            </Route>
+            <Route path="*">
+            <NotFound/>
             </Route>
           </Switch>
         </Router>
