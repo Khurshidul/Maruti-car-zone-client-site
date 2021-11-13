@@ -1,0 +1,12 @@
+*{
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.booking input{
+    border-bottom: 2px solid rgba(175, 174, 174, 0.849);
+   height: 50px;
+}

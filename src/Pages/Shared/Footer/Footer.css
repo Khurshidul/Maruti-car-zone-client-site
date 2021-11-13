@@ -1,0 +1,45 @@
+.footer{
+    margin-top: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(54, 179, 151);
+    height: 300px;
+}
+
+.footer-title{
+    color:rgb(255, 251, 251);
+    margin: 20px 100px;
+}
+.footer i{
+    font-size:40px;
+    color:#000000;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.footer p{
+    margin-left: 20px;
+    color: #000000;
+}
+
+.footer-menu a{
+color: black;
+font-size: 20px;
+font-weight: bold;
+}
+
+.contact-item label input{
+    padding: 8px 0;
+    line-height: 10px;
+    border: none;
+    border-radius:8px;
+    background-color: rgb(214, 212, 212);
+}
+@media only screen and (max-width: 688px) {
+    .footer{
+        display:block;
+    }
+    
+}
