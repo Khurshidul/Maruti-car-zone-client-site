@@ -47,7 +47,7 @@ const style = {
 }
 const Banner2 = () => {
     return (
-        <Container style={style.paperPoster} sx={{ flexGrow: 1, mx: 2, height: "500px", mt: 5 }}>
+        <Container style={style.paperPoster} sx={{ flexGrow: 1, height: "500px", mt: 5 }}>
             <Box>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={5}>

@@ -44,29 +44,35 @@ const Reviews = () => {
                 </Typography>
                 <Box>
                     {
-                        totalUsers.map(currentUser => <Paper sx={{ my: 5, ml: 30, width: "50%" }} elevation={3}> {
-                            user.email === currentUser.email &&
+                        totalUsers.map(currentUser =>currentUser.email === user.email &&
 
-                            <form className="booking" onSubmit={handleSubmit(onSubmit)}>
-                                <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" defaultValue={currentUser.displayName} />
-                                <input type="email" {...register("email")} placeholder="Email" defaultValue={currentUser.email} />
-
-                                <textarea type="text" {...register("message")} placeholder="Type your message" />
+                                <Paper sx={{ my: 5, ml: 30, width: "50%" }}>
 
 
+                                    <form className="booking" onSubmit={handleSubmit(onSubmit)}>
+                                        <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" defaultValue={currentUser.displayName} />
+                                        <input type="email" {...register("email")} placeholder="Email" defaultValue={user.email} />
 
-                                <input className="btn btn-primary order-submin" type="submit" value="Submit" />
+                                        <textarea type="text" {...register("message")} placeholder="Type your message" />
 
 
-                            </form>
+
+                                        <input className="btn btn-primary order-submin" type="submit" value="Submit" />
 
 
-                        }</Paper>)
+                                    </form>
+
+
+
+                                </Paper>
+
+                        
+                        )
                     }
                 </Box>
 
             </Container>
-            <Footer/>
+            <Footer />
         </Box>
 
 
@@ -75,3 +81,5 @@ const Reviews = () => {
 };
 
 export default Reviews;
+
+

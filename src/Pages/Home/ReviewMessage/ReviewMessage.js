@@ -1,9 +1,9 @@
-import { Container, Paper, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React, { useEffect, useState } from 'react';
 import Grid from '@mui/material/Grid';
 import reviewPoster from '../../../images/review.jfif';
 import reviewPoster2 from '../../../images/review1.jfif';
+import { Paper, Typography } from '@mui/material';
 const ReviewMessage = () => {
     const [messages, setMessages] = useState([]);
     useEffect(() => {
@@ -13,7 +13,7 @@ const ReviewMessage = () => {
 
     }, [])
     return (
-        <Container>
+        <Box>
             <Typography style={{ color: "lightcoral" }} sx={{ mb: 5, fontWeight: "bold" }} variant="h4">
                 Reviews of our customers.
             </Typography>
@@ -69,7 +69,7 @@ const ReviewMessage = () => {
                 </Grid>
             </Grid>
 
-        </Container>
+        </Box>
     );
 };
 

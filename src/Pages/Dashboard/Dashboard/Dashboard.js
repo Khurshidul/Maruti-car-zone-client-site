@@ -5,10 +5,7 @@ import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import {
     BrowserRouter as Router,
     Switch,
@@ -20,7 +17,6 @@ import {
 import { Button } from '@mui/material';
 // import MakeAdmin from '../MakeAdmin/MakeAdmin';
 import MyOrder from '../MyOrder/MyOrder';
-import DashboardHome from '../DashboardHome/DashboardHome';
 import Reviews from '../Reviews/Reviews';
 import Admin from '../Admin/Admin';
 import Navigation from '../../Shared/Navigation/Navigation';
@@ -132,9 +128,7 @@ function Dashboard(props) {
                 <Toolbar />
 
                 <Switch>
-                    {/* <Route exact path={`${path}/dashboardHome`}>
-                        <DashboardHome />
-                    </Route> */}
+                   
                     <Route exact path={`${path}/admin`}>
                         <Admin />
                     </Route>
