@@ -4,37 +4,37 @@
 This is a car's website for online sell.
 ```
 
-## About 
+## About
 
 ```
 Here are so much model of cars. The cars looks amizing.
 ```
 
 ### Features
+
 ```
 Specifications of Maruti Suzuki Swift
 Mileage
-20.4 km/litre	
+20.4 km/litre
 Engine Displ.
 1197 cc
 Transmission
-Manual	
+Manual
 Fuel Type
 Petrol
 Boot Space
-268 litres	
+268 litres
 Power Windows
 No
 Airbags
-Driver frontal airbag, Front passenger frontal airbag, No	
+Driver frontal airbag, Front passenger frontal airbag, No
 ABS
 Yes
 Central Locking
-No	
+No
 Fog Lamps
 No
 ```
-
 
 ### Service
 
@@ -44,5 +44,4 @@ Giving your car the service it deserves, Maruti Suzuki Service has an extensive 
 
 ### Deploysite link
 
-
-"# niche-website-client-side-Khurshidul" 
+https://genius-car-mechanic-6de64.web.app/
